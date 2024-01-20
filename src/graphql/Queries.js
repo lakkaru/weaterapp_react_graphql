@@ -1,6 +1,6 @@
-import { gpl } from "@apollo/client";
+import { gql } from "@apollo/client";
 
-export const GET_WEATER_QUERY = gpl`
+export const GET_WEATER_QUERY = gql`
     query getCityByName($name:String){
         getCityByName(name:$name){
             name
